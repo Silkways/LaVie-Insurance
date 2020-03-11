@@ -8,7 +8,7 @@ As a struggling US life insurance company, our goal is to increase revenues by 2
 
 ## Data Structure and Selection: 
 
-The dataset we used contained a wide ranging set of health ranking features per county within each state. This included data points such as premature deaths, low birthweight, adult smoking etc. As an intial step, we selected the premature death as our dependent variable, what we aim to predict. This variable is categorized as Years Potential Life Loff (YPLL) - estimate of the average years a person would have lived if he or she had not died prematurely. It is a measure of premature mortality. 
+The dataset we used contained a wide ranging set of health ranking features per county within each state. This included data points such as premature deaths, low birthweight, adult smoking etc. As an intial step, we selected the premature death as our dependent variable, what we aim to predict. This variable is categorized as Years Potential Life Loss (YPLL) - estimate of the average years a person would have lived if he or she had not died prematurely. It is a measure of premature mortality. 
 
 We then decided to exclude columns with confidence interval and quantile to simplify our selection process and model application. In addition, we tested for multicollinearity for the independent variables using a VIF (variance inflation factor) test. It yield some highly collinear relationships across variables that we then excluded. 
 
